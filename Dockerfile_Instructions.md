@@ -6,7 +6,7 @@ DockerFile
  ```sh 
   docker build .
   docker build -f /path/to/a/Dockerfile .
-  docker build -t shykes/myapp .
+  docker build -t imagename .
  ```
 
 3. The Docker daemon runs the instructions in the Dockerfile one-by-one, committing the result of each instruction to a new image if necessary, before finally outputting the ID of your new image.  
